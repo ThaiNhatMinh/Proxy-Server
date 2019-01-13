@@ -66,5 +66,5 @@ public:
 private:
 	void Process();
 
-
+	bool CheckRequest(std::string method);
 };

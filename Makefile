@@ -1,7 +1,7 @@
 CC = g++ -pthread
 OUT_DIR = output
 MKDIR_P = mkdir -p
-MSSV = 1512323
+MSSV = ProxyServer
 
 all: directories program
 

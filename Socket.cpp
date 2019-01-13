@@ -99,7 +99,7 @@ bool Socket::ConnectToHost(std::string host, std::size_t port)
 	if ( (rv = getaddrinfo( host.c_str() , "http" , &hints , &servinfo)) != 0) 
 	{
 		std::cout << "[Socket] Can't get address info: " << host << ":" << port << std::endl;
-		return 1;
+		return false;
 	}
 
 	bool r = false;
