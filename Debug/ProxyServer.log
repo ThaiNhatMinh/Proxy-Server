@@ -1,0 +1,3 @@
+﻿  ClientConnection.cpp
+d:\university of science\ltm\assignmentfinal\proxyserver\clientconnection.cpp(131): warning C4018: '<': signed/unsigned mismatch
+  ProxyServer.vcxproj -> D:\University Of Science\LTM\AssignmentFinal\Debug\ProxyServer.exe
