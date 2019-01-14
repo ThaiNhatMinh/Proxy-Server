@@ -8,4 +8,6 @@ A Simple server proxy, just recevie request from client and forward it to remote
   make
  ```
 ## Usage
+```
  ./ProxyServer <proxy port> <max thread>
+```
